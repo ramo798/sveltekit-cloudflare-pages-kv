@@ -10,13 +10,12 @@ npm init svelte@latest sveltekit-cloudflare-pages-kv
 npm install
 npm run dev --open
 
-プッシュします。
-
 # adopter の設定
 
 Cloudflare アダプターをインストール
 npm i --save-dev @sveltejs/adapter-cloudflare
 svelte.config.js を以下のように修正
+プッシュします。
 
 # deploy
 
