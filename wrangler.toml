@@ -1,0 +1,9 @@
+name = "sveltekit-cloudflare-pages-kv"
+account_id = "909dd8b3a5c0cf5242c23e432efdf5a6"
+main = "./.cloudflare/worker.js"
+compatibility_date = "2023-01-15"
+kv_namespaces = [
+   { binding = "MY_KV", id = "a3a690db9abe46cfafbe00480c64ce3e", preview_id = "a3a690db9abe46cfafbe00480c64ce3e" }
+ ]
+[build]
+command = "npm run build"
